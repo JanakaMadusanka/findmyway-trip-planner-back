@@ -1,0 +1,9 @@
+spring:
+  datasource:
+#    url: jdbc:mysql://localhost:3306/find_my_way
+    url: jdbc:mysql://localhost:3306/codex_trip_planner
+    username: root
+    password: 1234
+  jpa:
+    hibernate:
+      ddl-auto: update
